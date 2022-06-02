@@ -16,7 +16,7 @@ export const Nav = () => {
             <a>
               <Image
                 src={Logo}
-                width={85}
+                width={90}
                 height={35}
                 alt="MB logo"
                 className="logo"

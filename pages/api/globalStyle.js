@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     --green: #C2E1D0;
     //--green: #A3D4B9;
     --blue: #E2EFF4;
-    --blueBtn: #86B3C1;
+    --darkblue: #86B3C1;
     --blueHover: #A1C7D2;
    
     // Fonts sizes

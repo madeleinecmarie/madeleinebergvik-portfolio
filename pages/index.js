@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
 import HeroImg from "../public/images/heroimg.png";
 
 // Components
@@ -129,8 +130,11 @@ export default function Index() {
             <p>2009, 2010, 2011</p>
           </div> */}
         </div>
-        <div className="cv">
-          <button className="cv__btn">See full CV</button>
+
+        <div className="cv-wrapper">
+          <Link href={"/cv"} passHref>
+            <button className="cv-wrapper__btn">See full CV</button>
+          </Link>
         </div>
       </main>
       <Footer />

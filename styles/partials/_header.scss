@@ -18,16 +18,11 @@
     }
 }
 
+
+
 .logo:hover {
-    animation: rotation 3s linear;
+    transform: rotate(180deg);
 }
 
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
+
 

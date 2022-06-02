@@ -12,6 +12,16 @@ body {
   color: var(--black);
 }
 
+html ::-moz-selection,
+body ::-moz-selection {
+  background: var(--darkblue);
+}
+
+html ::selection,
+body ::selection {
+  background: var(--darkblue);
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,30 +89,8 @@ span {
 }
 
 .logo:hover {
-  -webkit-animation: rotation 3s linear;
-          animation: rotation 3s linear;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .footer-inner {
@@ -250,13 +238,13 @@ span {
   width: 60%;
 }
 
-.cv {
+.cv-wrapper {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.cv__btn {
-  background-color: var(--blueBtn);
+.cv-wrapper__btn {
+  background-color: var(--darkblue);
   border-radius: 10px;
   width: 180px;
   height: 60px;
@@ -266,9 +254,26 @@ span {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-.cv__btn:hover {
+.cv-wrapper__btn:hover {
   background-color: var(--blueHover);
   -webkit-transform: var(--skew-animation);
           transform: var(--skew-animation);
+}
+
+.cv {
+  margin: 50px auto;
+}
+
+.cv__headline {
+  margin-top: 80px;
+}
+
+.cv__funfact {
+  margin-top: 60px;
+  width: 60%;
+}
+
+.cv__funfact-headline {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -12,7 +12,10 @@ body {
   list-style: none;
   font-family: var(--font);
   color: var(--black);
-//  box-sizing: border-box;
+
+::selection {
+    background: var(--darkblue);
+}
 }
 
 main {

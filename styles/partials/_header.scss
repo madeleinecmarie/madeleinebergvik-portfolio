@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--blue);
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.nav--links {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+
+    & a {
+        font-size: var(--font-xs);
+        font-weight: var(--medium);
+    }
+}
+
+.logo:hover {
+    animation: rotation 3s linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

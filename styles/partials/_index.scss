@@ -1,0 +1,122 @@
+.hero {
+    background-color: var(--blue);
+    height: 645px;
+
+    &__inner {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        padding-top: 120px;
+        height: 560px;
+    }
+
+    &__text {
+        display: flex;
+        margin-left: 60px;
+        flex-direction: column;
+        margin-top: 60px;
+        justify-content: center;
+        
+    }
+
+    &__headline {
+        font-size: var(--font-xl);
+        font-weight: var(--boldest);
+
+    }
+
+    &__bottom-text {
+        font-weight: var(--boldest);
+        font-size: var(--font-xl);
+    }
+
+    &__img {
+        margin-top: 120px;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+
+    &__bodytext {
+        width: 80%;
+        margin-top: 20px;
+        font-size: var(--font-26);
+    }
+
+    &__span {
+        display: block;
+        margin-top: 30px;
+        font-weight: var(--medium);
+    }
+}
+
+.icons, .skills, .work {
+    margin-top: 140px;
+}
+
+.icons {
+    &__part-1,
+     &__part-2{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-top: 60px;
+    }
+}
+
+.skills {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-top: 40px;
+    }
+}
+
+.work-headline {
+    margin-top: 90px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    gap: 60px;
+    margin-top: 60px;
+ 
+    &__div-2,
+    &__div-4 {
+        width: 60%;
+    }
+}
+
+.cv {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    &__btn {
+        background-color: var(--blueBtn);
+        border-radius: 10px;
+        width: 180px;
+        height: 60px;
+        font-size: var(--font-base);
+        font-weight: var(--bold);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+
+        &:hover {
+        background-color: var(--blueHover);
+        transform: var(--skew-animation);
+        }
+    }
+}
+
+
+

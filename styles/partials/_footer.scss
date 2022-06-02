@@ -1,0 +1,14 @@
+.footer-inner {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+
+    &__ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+}

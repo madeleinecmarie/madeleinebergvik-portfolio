@@ -1,4 +1,3 @@
-// import "../styles/globals.css";
 import "../styles/styles.scss";
 import GlobalStyle from "./api/globalStyle";
 

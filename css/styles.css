@@ -276,4 +276,32 @@ span {
 .cv__funfact-headline {
   margin-bottom: 10px;
 }
+
+.projects {
+  margin: 140px auto;
+}
+
+.cards {
+  margin-top: 60px;
+}
+
+.cards__img {
+  -webkit-transition: var(--transformation);
+  transition: var(--transformation);
+}
+
+.cards__img:hover {
+  -webkit-transform: var(--skew-animation);
+          transform: var(--skew-animation);
+  opacity: 0.92;
+}
+
+.cards__heading {
+  margin-top: 10px;
+}
+
+.cards__bodytext {
+  width: 90%;
+  margin-top: 6px;
+}
 /*# sourceMappingURL=styles.css.map */

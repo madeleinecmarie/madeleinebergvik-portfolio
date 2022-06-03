@@ -3,6 +3,7 @@ import Head from "next/head";
 // Components
 import { Nav } from "../components/nav/Nav";
 import Footer from "../components/footer/Footer";
+import Projects from "../components/projects/ProjectsCard";
 
 export default function Index() {
   return (
@@ -18,7 +19,16 @@ export default function Index() {
         <Nav />
       </header>
 
-      <main></main>
+      <main className="projects">
+        <h1 className="">My projects</h1>
+        <p>
+          This is some of the projects I have done the last two years after
+          starting the studies at Noroff.
+        </p>
+        <div>
+          <Projects />
+        </div>
+      </main>
       <Footer />
     </>
   );

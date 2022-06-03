@@ -73,19 +73,24 @@ span {
   width: 100%;
 }
 
-.nav--links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 20%;
+.nav {
+  width: 100%;
+  margin: auto;
 }
 
-.nav--links a {
+.nav__links {
+  color: var(--black);
+  gap: 80px;
+  padding-right: 20px;
+}
+
+.nav__links a {
   font-size: var(--font-xs);
   font-weight: var(--medium);
+}
+
+.logo-container {
+  padding-left: 20px;
 }
 
 .logo:hover {
@@ -119,7 +124,7 @@ span {
 
 .hero {
   background-color: var(--blue);
-  height: 645px;
+  height: 635px;
 }
 
 .hero__inner {

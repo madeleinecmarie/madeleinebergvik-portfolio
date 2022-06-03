@@ -7,15 +7,26 @@
     width: 100%;
 }
 
-.nav--links {
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
+.nav {
+    width: 100%;
+    margin: auto;
 
-    & a {
-        font-size: var(--font-xs);
-        font-weight: var(--medium);
+    &__links {
+        color: var(--black);
+        gap: 80px;
+        padding-right: 20px;
+    
+        & a {
+            font-size: var(--font-xs);
+            font-weight: var(--medium);
+        }
     }
+    
+}
+
+
+.logo-container {
+    padding-left: 20px;
 }
 
 

@@ -52,11 +52,14 @@ h4 {
 
 p {
     font-size: var(--font-base);
-    // font-weight: var(--medium);
-    // letter-spacing: 0.5px;
 }
 
 span {
     display: block;
+}
+
+.header-layout {
+    background-color: var(--blue);
+    height: 90px;
 }
 

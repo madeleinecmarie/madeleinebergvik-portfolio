@@ -15,7 +15,7 @@ export default function Index() {
           content="Hi! I'm Madeleine Bergvik, and welcome to my portfolio. This is a place where you can get to know me as a developer, and the work I have done."
         />
       </Head>
-      <header className="header">
+      <header className="header header-layout">
         <Nav />
       </header>
 

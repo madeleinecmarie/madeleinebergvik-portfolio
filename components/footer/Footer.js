@@ -10,7 +10,7 @@ function Footer() {
     <>
       <FooterStyle>
         <div className="footer-inner">
-          <div>
+          <div className="footer-inner__wrap-1">
             <h3>Contact</h3>
             <ul className="footer-inner__ul">
               <li>

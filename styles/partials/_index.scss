@@ -14,15 +14,15 @@
 
 
 .hero {
-    height: 650px;
+    height: 560px;
 
     &__inner {
         display: flex;
         width: 60%;
         margin: auto;
         justify-content: space-between;
-        padding-top: 90px;
-        height: 560px;
+        padding-top: 60px;
+        height: auto;
     }
 
     &__text {

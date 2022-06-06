@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     --blueHover: #A1C7D2;
    
     // Fonts sizes
-    --font-xl: 3.438rem;
+    --font-xl: 3.75rem;
     // 50px
     --font-lg: 3.125rem;
     // 30px

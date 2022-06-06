@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { Icon } from "@iconify/react";
-import Image from "next/image";
 import Link from "next/link";
-import HeroImg from "../public/images/heroimg.png";
 
 // Components
 import { Nav } from "../components/nav/Nav";
@@ -18,24 +16,18 @@ export default function Index() {
           content="Hi! I'm Madeleine Bergvik, and welcome to my portfolio. This is a place where you can get to know me as a developer, and the work I have done."
         />
       </Head>
-      <header className="header">
-        <Nav />
-      </header>
-      <div className="hero">
-        <div className="hero__inner">
-          <div className="hero__text">
-            <h1 className="hero__headline">Madeleine Bergvik</h1>
-            <p className="hero__bottom-text">
-              Junior front end <span>developer</span>
-            </p>
-          </div>
-          <div className="hero__img">
-            <Image
-              src={HeroImg}
-              alt="Illustration of a girl with a laptop"
-              height={440}
-              width={490}
-            ></Image>
+      <div className="bgd">
+        <header className="header">
+          <Nav />
+        </header>
+        <div className="hero">
+          <div className="hero__inner">
+            <div className="hero__text">
+              <h1 className="hero__headline">Madeleine Bergvik</h1>
+              <p className="hero__bottom-text">
+                Junior front end <span>developer</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -43,9 +35,10 @@ export default function Index() {
       <main>
         <div className="info">
           <p className="info__bodytext">
-            Hi, Im Madeleine and I am a junior front end developer with an eye
+            Hi, I am Madeleine and I am a junior front end developer with an eye
             for design. Currently finishing up my last year of the two year
-            Higher Proffessional Degree at Noroff in Oslo.
+            Higher Proffessional Degree at Noroff in Oslo, and I am now looking
+            for my very first developer job.
           </p>
           <p className="info__bodytext">
             I care a lot about using my skills for a positive impact and are

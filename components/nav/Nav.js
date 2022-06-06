@@ -3,7 +3,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/images/logo.png";
-import NavStyle from "../nav/NavStyle";
 
 export const Nav = () => {
   const router = useRouter();
@@ -56,12 +55,20 @@ export const Nav = () => {
       >
         <div className="nav__links lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
           <Link href="/projects">
-            <a className="lg:inline-flex lg:w-auto w-auto px-3 py-2 rounded items-center justify-center">
+            <a
+              className={
+                router.pathname === "/projects" ? "activeNav" : "inactive"
+              }
+            >
               Projects
             </a>
           </Link>
           <Link href="/about">
-            <a className="lg:inline-flex lg:w-auto w-auto px-3 py-2 rounded items-center justify-center">
+            <a
+              className={
+                router.pathname === "/about" ? "activeNav" : "inactive"
+              }
+            >
               About
             </a>
           </Link>
@@ -70,45 +77,3 @@ export const Nav = () => {
     </nav>
   );
 };
-
-//   return (
-//     <>
-//       <NavStyle className="active flex items-center flex-wrap">
-//         <div className="logo-container">
-//           <Link href="/" passHref>
-//             <a>
-//               <Image
-//                 src={Logo}
-//                 width={90}
-//                 height={35}
-//                 alt="MB logo"
-//                 className="logo"
-//               ></Image>
-//             </a>
-//           </Link>
-//         </div>
-
-//         <div className="nav--links">
-//           <Link href="/projects">
-//             <a
-//               className={
-//                 router.pathname === "/projects" ? "activeNav" : "inactive"
-//               }
-//             >
-//               Projects
-//             </a>
-//           </Link>
-//           <Link href="/about">
-//             <a
-//               className={
-//                 router.pathname === "/about" ? "activeNav" : "inactive"
-//               }
-//             >
-//               About
-//             </a>
-//           </Link>
-//         </div>
-//       </NavStyle>
-//     </>
-//   );
-// };

@@ -1,27 +1,28 @@
 .header {
-    background-color: var(--blue);
-    overflow: hidden;
-    position: fixed;
-    z-index: 1;
-    top: 0;
+    background-color: transparent;
+    // overflow: hidden;
+    // position: fixed;
+    // z-index: 1;
+    // top: 0;
     width: 100%;
+    // max-width: 1300px;
+    // min-width: 300px;
 }
 
 .nav {
     width: 100%;
     margin: auto;
+    
 
     &__links {
         color: var(--black);
-        gap: 80px;
-        padding-right: 20px;
+        gap: 60px;
     
         & a {
             font-size: var(--font-xs);
             font-weight: var(--medium);
         }
     }
-    
 }
 
 
@@ -34,6 +35,16 @@
 .logo:hover {
     transform: rotate(180deg);
 }
+
+.activeNav:after {
+    content: "";
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 50%;
+    border: 1.5px solid var(--black);
+  }
+  
 
 
 

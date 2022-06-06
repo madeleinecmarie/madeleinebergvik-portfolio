@@ -1,19 +1,32 @@
+@keyframes color {
+    5%   { background: #f7f6dd; }
+    20%  { background: #bbcee0; }
+    40%  { background: #E9CFD8; }
+    60%  { background: #d4e2db; }
+    80%  { background: #f7d2df; }
+    100% { background: #E2EFF4; }
+}
+
+.bgd {
+    background: var(--blue); // bgd fallback
+    animation: color 25s infinite;
+}
+
+
 .hero {
-    background-color: var(--blue);
-    height: 635px;
+    height: 650px;
 
     &__inner {
         display: flex;
-        width: 80%;
+        width: 60%;
         margin: auto;
         justify-content: space-between;
-        padding-top: 120px;
+        padding-top: 90px;
         height: 560px;
     }
 
     &__text {
         display: flex;
-        margin-left: 60px;
         flex-direction: column;
         margin-top: 60px;
         justify-content: center;

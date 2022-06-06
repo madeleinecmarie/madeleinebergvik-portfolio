@@ -34,12 +34,13 @@ function Footer() {
               <p className="copyright__smallScreen">MB © 2022</p>
             </ul>
           </div>
-          <div>
+          <div className="footer-inner__img-wrapper">
             <Image
               src={FooterImage}
-              height={190}
-              width={500}
+              height={160}
+              width={460}
               alt="Illustration of a laptop and books"
+              className="footer-inner__img"
             ></Image>
           </div>
         </div>

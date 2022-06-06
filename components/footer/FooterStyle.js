@@ -5,8 +5,9 @@ const FooterStyle = styled.div`
   background-color: var(--blue);
   height: 280px;
 
-  ${media.lessThan("490px")`
-  height: 430px;
+  ${media.lessThan("650px")`
+  height: auto;
+  padding: 30px;
   `}
 `;
 

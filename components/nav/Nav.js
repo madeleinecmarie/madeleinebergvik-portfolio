@@ -29,7 +29,7 @@ export const Nav = () => {
         </a>
       </Link>
       <button
-        className="inline-flex p-3 rounded lg:hidden ml-auto outline-none"
+        className="inline-flex rounded lg:hidden ml-auto outline-none"
         onClick={handleClick}
       >
         <svg
@@ -53,7 +53,7 @@ export const Nav = () => {
           active ? "" : "hidden"
         }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
       >
-        <div className="nav__links lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+        <div className="nav__links lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
           <Link href="/projects">
             <a
               className={

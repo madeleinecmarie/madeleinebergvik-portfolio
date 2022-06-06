@@ -14,7 +14,8 @@
 
 
 .hero {
-    height: 560px;
+    height: auto;
+    padding-bottom: 130px;
 
     &__inner {
         display: flex;
@@ -54,7 +55,7 @@
     flex-direction: column;
     width: 100%;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 160px;
 
     &__bodytext {
         width: 80%;

@@ -33,7 +33,7 @@ export const Nav = () => {
         onClick={handleClick}
       >
         <svg
-          className="w-6 h-6"
+          className="nav__hamburger w-6 h-6"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

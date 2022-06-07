@@ -83,7 +83,7 @@
 }
 
 .about-wrapper {
-    background-color: #262626;
+    background-color: var(--black);
     color: var(--white);
     height: auto;
     padding: 1px;
@@ -92,10 +92,6 @@
 .about {
     width: 90%;
     margin: 90px auto;
-
-    &__headline {
-        margin-right: 90px;
-    }
 
     &__text {
         width: 80%;
@@ -119,8 +115,6 @@
       width: 60%;
   }
 }
-
-
 
 .bottom-section {
     background-color: var(--black);

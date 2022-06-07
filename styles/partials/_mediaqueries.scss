@@ -108,15 +108,16 @@
             margin-top: 40px;
         }
     }
+
+    .skills__inner {
+        flex-direction: column;
+        gap: 40px;
+    }
 }
 
 @media (max-width: 561px) {
     .hero__inner {
         width: 85%;
-    }
-
-    .skills__inner {
-        gap: 5px;
     }
 }
 
@@ -182,11 +183,6 @@
         &__bodytext {
             width: 60%;
         }
-    }
-
-    .skills__inner {
-        flex-direction: column;
-        gap: 40px;
     }
     
     .cards__bodytext {

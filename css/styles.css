@@ -474,14 +474,18 @@ span {
   .language__subheading {
     margin-top: 40px;
   }
+  .skills__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+  }
 }
 
 @media (max-width: 561px) {
   .hero__inner {
     width: 85%;
-  }
-  .skills__inner {
-    gap: 5px;
   }
 }
 
@@ -528,13 +532,6 @@ span {
   }
   .hero__bodytext {
     width: 60%;
-  }
-  .skills__inner {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 40px;
   }
   .cards__bodytext {
     margin: auto;

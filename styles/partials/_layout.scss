@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 html, 
 body {
@@ -11,35 +13,33 @@ body {
   text-decoration: none;
   list-style: none;
   font-family: var(--font);
-  color: var(--black);
   box-sizing: border-box;
 
 ::selection {
-    background: #f7f6dd;
+    background: var(--gray);
   }
 }
 
+// #cbc4b7;
+
 main {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
     margin: auto;
     max-width: 1400px;
     min-width: 300px;
 }
 
 h1 {
-    font-size: var(--font-lg);
+    font-size: var(--font-lgx2);
     font-weight: var(--bold);
 }
 
 h2 {
-    font-size: var(--font-md);
+    font-size: var(--font-lg);
     font-weight: var(--bold);
 }
 
 h3 {
-font-size: var(--font-sm);
+font-size: var(--font-md);
 font-weight: var(--bold);
 }
 
@@ -50,7 +50,8 @@ h4 {
 
 
 
-p {
+p,
+li {
     font-size: var(--font-base);
 }
 
@@ -58,8 +59,4 @@ span {
     display: block;
 }
 
-.header-layout {
-    background-color: var(--blue);
-    height: 90px;
-}
 

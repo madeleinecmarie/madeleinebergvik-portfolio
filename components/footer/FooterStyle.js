@@ -2,8 +2,9 @@ import styled from "styled-components";
 import media from "styled-media-query";
 
 const FooterStyle = styled.div`
-  background-color: var(--blue);
-  height: 280px;
+  background-color: var(--black);
+  color: var(--white);
+  height: 340px;
 
   ${media.lessThan("650px")`
   height: auto;

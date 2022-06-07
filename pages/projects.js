@@ -19,8 +19,8 @@ export default function Index() {
         <Nav />
       </header>
 
-      <main className="projects">
-        <h1 className="">My projects</h1>
+      {/* <main className="projects">
+        <h1>My projects</h1>
         <p>
           This is some of the projects I have done the last two years after
           starting the studies at Noroff.
@@ -28,7 +28,7 @@ export default function Index() {
         <div>
           <Projects />
         </div>
-      </main>
+      </main> */}
       <Footer />
     </>
   );

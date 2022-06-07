@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import FooterImage from "../../public/images/footer.png";
 
 // Components
 import FooterStyle from "./FooterStyle";
@@ -11,7 +9,7 @@ function Footer() {
       <FooterStyle>
         <div className="footer-inner">
           <div className="footer-inner__wrap-1">
-            <h3>Contact</h3>
+            <h3 className="footer-inner__headline">Social Media</h3>
             <ul className="footer-inner__ul">
               <li>
                 <Link
@@ -22,26 +20,27 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="mailto: madeleinebergvik@gmail.com" passHref>
-                  <a>Gmail</a>
-                </Link>
-              </li>
-              <li>
                 <Link href="https://github.com/madeleinecmarie" passHref>
                   <a>Github</a>
                 </Link>
               </li>
-              <p className="copyright__smallScreen">MB © 2022</p>
+              <p className="footer-inner__copyright">MB © 2022</p>
             </ul>
           </div>
-          <div className="footer-inner__img-wrapper">
-            <Image
-              src={FooterImage}
-              height={160}
-              width={460}
-              alt="Illustration of a laptop and books"
-              className="footer-inner__img"
-            ></Image>
+          <div className="footer-inner__wrap-2">
+            <h3 className="footer-inner__headline">Contact</h3>
+            <ul className="footer-inner__ul">
+              <li>
+                <Link href="" passHref>
+                  <a>+47 463 17 018</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="mailto: madeleinebergvik@gmail.com" passHref>
+                  <a>Gmail</a>
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </FooterStyle>

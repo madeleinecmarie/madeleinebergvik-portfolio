@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 90px;
 
     &__ul {
         display: flex;
@@ -12,7 +12,18 @@
         margin-top: 15px;
     }
 
-    &__img-wrapper {
-        align-self: center;
+    &__headline {
+        font-size: 1.5rem;
+    }
+
+    &__wrap-2 {
+        width: 70%;
+    }
+
+    &__copyright {
+        font-size: var(--font-xs);
     }
 }
+
+
+

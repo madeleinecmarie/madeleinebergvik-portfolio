@@ -5,6 +5,7 @@ import Link from "next/link";
 // Components
 import { Nav } from "../components/nav/Nav";
 import Footer from "../components/footer/Footer";
+import Projects from "../components/projects/ProjectsCard";
 
 export default function Index() {
   return (
@@ -16,118 +17,158 @@ export default function Index() {
           content="Hi! I'm Madeleine Bergvik, and welcome to my portfolio. This is a place where you can get to know me as a developer, and the work I have done."
         />
       </Head>
-      <div className="bgd">
-        <header className="header">
-          <Nav />
-        </header>
-        <div className="hero">
-          <div className="hero__inner">
-            <div className="hero__text">
-              <h1 className="hero__headline">Madeleine Bergvik</h1>
-              <p className="hero__bottom-text">
-                Junior front end <span>developer</span>
-              </p>
-            </div>
+
+      <header className="header">
+        <Nav />
+      </header>
+
+      <div className="hero">
+        <div className="hero__inner">
+          <div className="hero__text">
+            <h1 className="hero__headline">
+              Madeleine <span className="hero__span">Bergvik</span>
+            </h1>
+            <p className="hero__bottom-text">Coder with an eye for design</p>
           </div>
+        </div>
+        <div className="hero__bodytext-wrapper">
+          <p className="hero__bodytext">
+            Hi, Im Madeleine & Im a front end developer student with an eye for
+            design. Currently finishing up my last year at Noroff. I care a lot
+            about using my skills for a positive impact and are over the average
+            passioned about good userbility and high quality.
+          </p>
         </div>
       </div>
 
       <main>
-        <div className="info">
-          <p className="info__bodytext">
-            Hi, I am Madeleine and I am a junior front end developer with an eye
-            for design. Currently finishing up my last year of the two year
-            Higher Proffessional Degree at Noroff in Oslo, and I am now looking
-            for my very first developer job.
-          </p>
-          <p className="info__bodytext">
-            I care a lot about using my skills for a positive impact and are
-            over the average passioned about good userbility and high quality.
-            <span className="info__span">Let me introduce myself.</span>
-          </p>
-        </div>
-        <div className="icons">
-          <h2>Software skills</h2>
-          <div>
-            <div className="icons__part-1">
-              <Icon icon="akar-icons:html-fill" color="#85B4C2" height={90} />
+        <div className="projects">
+          <h1>Projects</h1>
 
-              <Icon icon="akar-icons:css-fill" color="#4ba695" height={90} />
-              <Icon
-                icon="akar-icons:javascript-fill"
-                color="#e9c78c"
-                height={90}
-              />
-              <Icon icon="akar-icons:react-fill" color="#e19646" height={90} />
-              <Icon
-                icon="akar-icons:bootstrap-fill"
-                color="#b77c87"
-                height={90}
-              />
-              <Icon icon="akar-icons:github-fill" color="#34616d" height={90} />
-            </div>
-            <div className="icons__part-2">
-              <Icon icon="cib:adobe-xd" color="#dfa789" height={90} />
-              <Icon icon="bi:filetype-sass" color="#d9a360" height={90} />
-              <Icon icon="akar-icons:figma-fill" color="#b77786" height={90} />
-              <Icon icon="bi:wordpress" color="#6AA3B1" height={90} />
-              <Icon icon="akar-icons:nextjs-fill" color="#c3d1ca" height={90} />
-              <Icon icon="bxl:tailwind-css" color="#54909e" height={90} />
+          <div>
+            <Projects />
+          </div>
+        </div>
+        <div className="bottom-section">
+          <div className="about">
+            <h2 className="about__headline">About</h2>
+            <div className="about__text">
+              <p className="about__p">
+                Hi there, I am a front end student at Noroff. I have so far 2
+                year of experience within front end, and I am very motivated to
+                find my very first front end job!
+              </p>
+              <p className="about__p">
+                I have for the 5 latest years lived in Moss with my partner, I
+                just love the balance of the city, nature and the ocean.
+              </p>
+              <p className="about__p">
+                Over the years I have worked as a barista at Stockfleths, and
+                learned everything about customer service, good quality and
+                working in a team. I have already had the time to be an
+                assistant manager for several years and even had the opporunity
+                to be the manager for almost a year, and learned a lot about
+                leadership, business operation, and teambuilding.
+              </p>
+              <p className="about__p">
+                Noroff has been a great place to develop both as a person and as
+                a developer. I have learned so much during these two years and I
+                am very excited about how much I will keep learning in the
+                future.
+              </p>
             </div>
           </div>
-        </div>
-        <div className="skills">
-          <h2>Personal skills</h2>
-          <div className="skills__inner">
-            <p>Teamwork</p>
-            <p>Structured</p>
-            <p>Creativity</p>
-            <p>Leadership</p>
-            <p>Adaptibility</p>
-          </div>
-        </div>
-        <h2 className="work-headline">Work experience</h2>
-        <div className="work">
-          <div>
-            <h3>Lee, Oslo Fashion Outlet</h3>
-            <p>Part-time</p>
-            <p>January 2020 - present</p>
-          </div>
-          <div className="work__div-2">
-            <h3>Glassperlen boligsameie</h3>
-            <p>Board member</p>
-            <p>April 2018 - present</p>
+
+          <div className="funfact">
+            <h3 className="funfact__headline">Fun fact:</h3>
+            <p className="funfact__bodytext">
+              I am 50/50 Swedish and Norwegian. I grew up in Sweden, but have
+              for the last 7 years lived in Norway. I speak both languages
+              fluently.
+            </p>
           </div>
 
-          <div>
-            <h3>Stockfleths</h3>
-            <p>Barista</p>
-            <p>Former manager & ass. manager</p>
-            <p>October 2015 - present</p>
+          <div className="language">
+            <h2>Skills</h2>
+            <div className="language__wrapper">
+              <div className="language__inner">
+                <h3 className="language__subheading">Code</h3>
+                <p>Visual Studio Code</p>
+                <p>Github</p>
+                <p>Netlify</p>
+                <p>Terminal</p>
+                <p>Tailwind</p>
+                <p>Bootstrap</p>
+                <p>Wordpress</p>
+              </div>
+              <div className="language__inner">
+                <h3 className="language__subheading">Languages</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>SASS</p>
+                <p>React</p>
+                <p>Next.js</p>
+              </div>
+              <div className="language__inner">
+                <h3 className="language__subheading">Design</h3>
+                <p>Adobe XD</p>
+                <p>Figma</p>
+              </div>
+            </div>
           </div>
-          <div className="work__div-4">
-            <h3>Waynes Coffee</h3>
-            <p>Barista</p>
-            <p>July 2015 - November 2015</p>
+          <div className="skills">
+            <h2>Personal skills</h2>
+            <div className="skills__inner">
+              <p>Teamwork</p>
+              <p>Structured</p>
+              <p>Creativity</p>
+              <p>Leadership</p>
+              <p>Adaptibility</p>
+            </div>
           </div>
+          <div className="work-wrapper">
+            <h2 className="work-wrapper__headline">Experience</h2>
+          </div>
+          <div className="work">
+            <div className="work__div-1">
+              <div>
+                <h3>Lee, Oslo Fashion Outlet</h3>
+                <p>Part-time</p>
+                <p>January 2020 - present</p>
+              </div>
+              <div>
+                <h3>Glassperlen boligsameie</h3>
+                <p>Board member</p>
+                <p>April 2018 - present</p>
+              </div>
 
-          {/* <div>
-            <h3>Bik Bok</h3>
-            <p>Sales, part time</p>
-            p>August 2014 - August 2015</p>
-            <p>Internship from August 2013- August 2014</p>
-          </div> */}
-          {/* <div>
-            <h3>Aquamann</h3>
-            <p>Summerjob</p>
-            <p>2009, 2010, 2011</p>
-          </div> */}
-        </div>
-
-        <div className="cv-wrapper">
-          <Link href={"/cv"} passHref>
-            <button className="cv-wrapper__btn">See full CV</button>
-          </Link>
+              <div>
+                <h3>Stockfleths</h3>
+                <p>Barista</p>
+                <p>Former manager & ass. manager</p>
+                <p>October 2015 - present</p>
+              </div>
+            </div>
+            <div className="work__div-2">
+              <div>
+                <h3>Waynes Coffee</h3>
+                <p>Barista</p>
+                <p>July 2015 - November 2015</p>
+              </div>
+              <div>
+                <h3>Bik Bok</h3>
+                <p>Sales, part time</p>
+                <p>August 2014 - August 2015</p>
+                <p>Internship August 2013- August 2014</p>
+              </div>
+              <div>
+                <h3>Aquamann</h3>
+                <p>Summerjob</p>
+                <p>2009, 2010, 2011</p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

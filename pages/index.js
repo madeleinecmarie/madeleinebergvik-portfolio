@@ -114,6 +114,8 @@ export default function Index() {
                 <p>Tailwind</p>
                 <p>Bootstrap</p>
                 <p>Wordpress</p>
+                <p>Heroku</p>
+                <p>Strapi</p>
               </div>
               <div className="language__inner">
                 <h3 className="language__subheading">Languages</h3>
@@ -123,6 +125,8 @@ export default function Index() {
                 <p>SASS</p>
                 <p>React</p>
                 <p>Next.js</p>
+                <p>GraphQL</p>
+                <p>Styled-components</p>
               </div>
               <div className="language__inner">
                 <h3 className="language__subheading">Design</h3>

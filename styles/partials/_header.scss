@@ -17,8 +17,9 @@
         padding-right: 20px;
     
         & a {
-            font-size: var(--font-xs);
+            font-size: var(--font-base);
             font-weight: var(--medium);
+            color: var(--gray)
         }
     }
 }
@@ -34,14 +35,18 @@
     transform: rotate(180deg);
 }
 
-.activeNav:after {
-    content: "";
-    margin: auto;
-    display: block;
-    position: relative;
-    width: 50%;
-    border: 1.5px solid var(--black);
-  }
+// .activeNav {
+//     color: ;
+// }
+
+// .activeNav:after {
+//     content: "";
+//     margin: auto;
+//     display: block;
+//     position: relative;
+//     width: 50%;
+//     border: 1.5px solid var(--black);
+//   }
   
 
 

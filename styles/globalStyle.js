@@ -25,10 +25,6 @@ const GlobalStyle = createGlobalStyle`
     --regular: 400;
     --medium: 500;
     --bold: 700;
-
-    // Elements
-    // --transformation: transform .4s cubic-bezier(.165, .84, .44, 1);
-    // --skew-animation: skew(.90deg, .90deg);
 `;
 
 export default GlobalStyle;

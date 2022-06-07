@@ -28,18 +28,10 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-inner__wrap-2">
-            <h3 className="footer-inner__headline">Contact</h3>
+            <h3 className="footer-inner__headline">Lets talk</h3>
             <ul className="footer-inner__ul">
-              <li>
-                <Link href="" passHref>
-                  <a>+47 463 17 018</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="mailto: madeleinebergvik@gmail.com" passHref>
-                  <a>Gmail</a>
-                </Link>
-              </li>
+              <p> madeleinebergvik@gmail.com</p>
+              <p>+47 463 17 018</p>
             </ul>
           </div>
         </div>

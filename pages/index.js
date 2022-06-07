@@ -1,6 +1,4 @@
 import Head from "next/head";
-import { Icon } from "@iconify/react";
-import Link from "next/link";
 
 // Components
 import { Nav } from "../components/nav/Nav";

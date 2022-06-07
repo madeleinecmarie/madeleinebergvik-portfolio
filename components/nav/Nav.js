@@ -21,7 +21,7 @@ export const Nav = () => {
             <Image
               src={Logo}
               width={90}
-              height={35}
+              height={30}
               alt="MB logo"
               className="logo"
             ></Image>
@@ -54,23 +54,11 @@ export const Nav = () => {
         }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
       >
         <div className="nav__links lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
-          <Link href="/projects">
-            <a
-              className={
-                router.pathname === "/projects" ? "activeNav" : "inactive"
-              }
-            >
-              Projects
-            </a>
+          <Link href="#projects" scroll={false}>
+            <a className={router.pathname === "#projects"}>Projects</a>
           </Link>
-          <Link href="/about">
-            <a
-              className={
-                router.pathname === "/about" ? "activeNav" : "inactive"
-              }
-            >
-              About
-            </a>
+          <Link href="#info" scroll={false}>
+            <a className={router.pathname === "#info"}>Info</a>
           </Link>
         </div>
       </div>

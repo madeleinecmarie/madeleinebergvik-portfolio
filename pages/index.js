@@ -40,7 +40,7 @@ export default function Index() {
       </div>
 
       <main>
-        <div className="projects">
+        <div className="projects" id="projects">
           <h1>Projects</h1>
 
           <div>
@@ -48,7 +48,7 @@ export default function Index() {
           </div>
         </div>
         <div className="bottom-section">
-          <div className="about">
+          <div className="about" id="info">
             <h2 className="about__headline">About</h2>
             <div className="about__text">
               <p className="about__p">
@@ -67,12 +67,6 @@ export default function Index() {
                 assistant manager for several years and even had the opporunity
                 to be the manager for almost a year, and learned a lot about
                 leadership, business operation, and teambuilding.
-              </p>
-              <p className="about__p">
-                Noroff has been a great place to develop both as a person and as
-                a developer. I have learned so much during these two years and I
-                am very excited about how much I will keep learning in the
-                future.
               </p>
             </div>
           </div>

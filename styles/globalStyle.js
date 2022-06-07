@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     --white: #F9F9F9;
     --black: #0D0D0D;
     --gray: #BFBFBF;
+    --emerald: #439A86;
 
     // Fonts sizes
     --font-xl: 5.625rem;
@@ -26,8 +27,8 @@ const GlobalStyle = createGlobalStyle`
     --bold: 700;
 
     // Elements
-    --transformation: transform .4s cubic-bezier(.165, .84, .44, 1);
-    --skew-animation: skew(.90deg, .90deg);
+    // --transformation: transform .4s cubic-bezier(.165, .84, .44, 1);
+    // --skew-animation: skew(.90deg, .90deg);
 `;
 
 export default GlobalStyle;

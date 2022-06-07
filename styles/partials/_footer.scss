@@ -12,6 +12,10 @@
         margin-top: 15px;
     }
 
+    &__link:hover {
+        color: var(--coral)
+    }
+
     &__headline {
         font-size: 1.5rem;
     }

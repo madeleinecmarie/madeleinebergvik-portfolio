@@ -21,7 +21,7 @@ const Projects = () => {
       githubLink:
         "https://github.com/madeleinecmarie/js-frameworks-ca-madeleinebergvik",
       description:
-        "A website I made for the Javascript framworks course assigment. I used GraphQL for the assigment so I could practice more on it.",
+        "A website I made for the Javascript framworks course assigment. I used GraphQL for the assigment because I wanted a challenge.",
     },
     {
       id: 3,
@@ -80,20 +80,20 @@ const Projects = () => {
         ({ image, title, description, id, link, githubLink }) => (
           <div key={id} className="cards">
             <div>
-              <Link href={link} passHref>
-                <a>
-                  <Image
-                    src={image}
-                    alt={title}
-                    width={1012}
-                    height={477}
-                    className="cards__img"
-                  />
-                </a>
-              </Link>
+              <Image
+                src={image}
+                alt={title}
+                width={1012}
+                height={477}
+                className="cards__img"
+              />
             </div>
             <div className="cards__flex">
-              <h3 className="cards__heading">{title}</h3>
+              <Link href={link} passHref>
+                <a>
+                  <h3 className="cards__heading">{title}</h3>
+                </a>
+              </Link>
               <a href={githubLink} className="cards__githublink">
                 Github
               </a>

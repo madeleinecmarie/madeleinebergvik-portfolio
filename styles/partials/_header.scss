@@ -18,8 +18,12 @@
     
         & a {
             font-size: var(--font-base);
-            font-weight: var(--medium);
+            font-weight: var(--bold);
             color: var(--gray);
+
+            &:hover {
+                color: var(--emerald);
+            }
         }
     }
 }

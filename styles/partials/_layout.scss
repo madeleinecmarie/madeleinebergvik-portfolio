@@ -16,9 +16,10 @@ body {
   box-sizing: border-box;
 
 ::selection {
-    background: var(--gray);
+    background: var(--coral);
   }
 }
+
 
 // #cbc4b7;
 
@@ -48,7 +49,9 @@ h4 {
     font-weight: var(--bold);
 }
 
-
+a:hover {
+    color: var(--emerald);
+}
 
 p,
 li {

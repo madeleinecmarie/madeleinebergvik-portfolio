@@ -47,11 +47,10 @@
 }
 
 .projects {
-    margin: 60px auto;
+    margin: 200px auto;
     display: flex;
     width: 90%;
     flex-direction: column;
-    padding-bottom: 60px;
     
     &__headline {
         margin-top: 90px;
@@ -60,15 +59,6 @@
 
 .cards {
     margin-top: 90px;
-
-    &__img {
-        transition: var(--transformation);
-
-        &:hover {
-          transform: var(--skew-animation);
-          opacity: 0.92;
-        }
-    }
 
     &__heading {
         margin-top: 10px;

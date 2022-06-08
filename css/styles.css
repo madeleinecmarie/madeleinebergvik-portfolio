@@ -29,6 +29,7 @@ main {
   margin: auto;
   max-width: 1400px;
   min-width: 300px;
+  background-color: var(--white);
 }
 
 h1 {
@@ -205,7 +206,8 @@ span {
 }
 
 .projects {
-  margin: 200px auto;
+  margin: auto;
+  padding-top: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -28,7 +28,8 @@ const Projects = () => {
       image: "/images/ili.png",
       title: "‘ili, skincare",
       link: "https://keen-kirch-bf42aa.netlify.app/",
-      githubLink: "https://github.com/madeleinecmarie/semesterproject-ili",
+      githubLink:
+        "https://github.com/madeleinecmarie/madeleinebergvik-semesterproject",
       description:
         "'ili. is a place a website where you simply can buy cruelty free and vegan makeup online.",
     },

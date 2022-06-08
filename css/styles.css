@@ -263,7 +263,9 @@ span {
 
 .about {
   width: 90%;
-  margin: 90px auto;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .about__text {

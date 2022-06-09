@@ -58,7 +58,7 @@ export default function Index() {
               </p>
               <p className="about__p">
                 I have for the 5 latest years lived in Moss with my partner, I
-                just love the balance of the city, nature and the ocean.
+                just love the balance between the city, nature and the ocean.
               </p>
               <p className="about__p">
                 Over the years I have worked as a barista at Stockfleths, and
